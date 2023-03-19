@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="silder__container">
+      <div class="left">
+        <i class="fa-solid fa-circle-arrow-left"></i>
+      </div>
+      <div class="right" onclick="">
+        <i class="fa-solid fa-circle-arrow-right"></i>
+      </div>
+      <div class="img__container hidden">
+        <img
+          src="https://images.unsplash.com/photo-1678662542431-935d32c2aae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt=""
+        />
+        <div class="description">Lorem ipsum dolor sit amet.</div>
+      </div>
+      <div class="img__container hidden">
+        <img
+          src="https://images.unsplash.com/photo-1678954129535-9f0d186570ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1266&q=80"
+          alt=""
+        />
+        <div class="description">Lorem, ipsum dolor.</div>
+      </div>
+      <div class="img__container">
+        <img
+          src="https://images.unsplash.com/photo-1678806525080-a3ef276e954d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt=""
+        />
+        <div class="description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, dolore.
+        </div>
+      </div>
+      <div class="img__container">
+        <img
+          src="https://images.unsplash.com/photo-1678095135767-738b1c9b2b0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          alt=""
+        />
+        <div class="description"><h2>Moon</h2></div>
+      </div>
+      <div class="img__container">
+        <img
+          src="https://images.unsplash.com/photo-1666627830631-4e3d18bb9f73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt=""
+        />
+        <div class="description"><h2>Lorem</h2></div>
+      </div>
+    </div>
+    <ul class="dot__container">
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
